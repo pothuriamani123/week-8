@@ -1,0 +1,51 @@
+
+
+ 
+print("===== WEEK 8: STRUCTURED FORMAT PROMPTING =====")
+ 
+normal_prompt = """
+Explain Artificial Intelligence.
+"""
+ 
+structured_prompt = """
+Explain Artificial Intelligence using the following format:
+ 
+TITLE:
+Artificial Intelligence
+ 
+DEFINITION:
+Give a simple definition of Artificial Intelligence.
+ 
+FEATURES:
+1. Feature 1
+2. Feature 2
+3. Feature 3
+ 
+APPLICATIONS:
+1. Application 1
+2. Application 2
+3. Application 3
+ 
+ADVANTAGES:
+1. Advantage 1
+2. Advantage 2
+3. Advantage 3
+ 
+EXAMPLE:
+Give one simple real-world example.
+ 
+CONCLUSION:
+Give a short conclusion.
+ 
+Constraints:
+- Use simple English.
+- Keep the answer under 200 words.
+- Follow the exact structure given above.
+"""
+ 
+print("\n--- NORMAL PROMPT ---")
+print(normal_prompt)
+print("\n--- STRUCTURED FORMAT PROMPT ---")
+print(structured_prompt)
+ 
+
